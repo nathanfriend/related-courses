@@ -1,9 +1,12 @@
 related-courses
 ===============
 
-<<<<<<< HEAD
 Moodle 2.1 block to show list of related meta courses.  Orignal code by Matt Elvey (17/11/2011).
-http://moodle.org/mod/forum/discuss.php?d=102794
-=======
-related-courses
->>>>>>> 52c9011991647c5aabb06678fe3abe72ba6b284e
+
+1) Download zip
+2) Extract and rename directory to related-courses
+3) Copy to {your-moodle-root/blocks/
+4) Login to your Moodle, go to Administration > Notifications
+5) Go to a course page, turn editing on, add Related Courses block.
+
+
