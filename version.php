@@ -15,4 +15,15 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-$plugin->version = 2011111100;
+
+/**
+ * @package   Related Courses 2.0
+ * @author    Matt Elvey
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+ 
+defined('MOODLE_INTERNAL') || die();
+ 
+$plugin->version   = 2012090301;
+$plugin->requires  = 2011070100;
+$plugin->maturity  = MATURITY_STABLE;
