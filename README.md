@@ -1,11 +1,11 @@
-related-courses
+related_courses
 ===============
 
 Moodle 2.1 block to show list of related meta courses.  Orignal code by Matt Elvey (17/11/2011).
 
 1) Download zip
 
-2) Extract and rename directory to related-courses
+2) Extract and rename directory to related_courses
 
 3) Copy to {your-moodle-root/blocks/
 
