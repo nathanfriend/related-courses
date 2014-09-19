@@ -26,6 +26,7 @@ class block_related_courses extends block_list {
 		WHERE e.enrol = 'meta'
 		AND e.courseid = :courseid
 		AND e.customint1 = c.id
+		AND visible = '1'
                 ORDER BY c.fullname ASC";
 		
 		$rs = $DB->get_recordset_sql($sql, array('courseid'=>$course->id));
@@ -44,6 +45,7 @@ class block_related_courses extends block_list {
 		WHERE e.enrol = 'meta' 
 		AND e.customint1 = :courseid 
 		AND e.courseid = c.id
+		AND visible = '1'
                 ORDER BY c.fullname ASC";
 		
 		$rs = $DB->get_recordset_sql($sql, array('courseid'=>$course->id));
